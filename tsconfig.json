@@ -6,7 +6,11 @@
       "dom.iterable",
       "esnext"
     ],
+    "plugins": [
+      { "name": "typescript-tslint-plugin" }
+    ],
     "allowJs": true,
+    "strictNullChecks": false,
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
